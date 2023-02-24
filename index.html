@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="h-full">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>BMI</title>
+  </head>
+  <body class="h-full flex justify-center mt-[15%] bg-slate-700">
+    <div
+      class="w-[360px] flex flex-col border-solid border-2 border-pink-500 p-5"
+    >
+      <div>
+        <label class="text-red-100" for="">Boyingizni kirirting</label>
+        <input
+          id="boy"
+          type="text"
+          class="w-9 border-solid border-2 border-orange-400 rounded"
+        />
+      </div>
+      <br />
+      <div>
+        <label class="text-red-100" for="">Vazningizni kiriting</label>
+        <input
+          id="vazn"
+          type="text"
+          class="border-solid border-2 border-orange-400 w-9 rounded"
+        />
+      </div>
+      <br />
+      <h2 class="text-red-100">BMI:</h2>
+      <br />
+      <span id="javob"></span>
+      <br />
+      <button
+        id="hisob"
+        class="border-solid border-2 border-orange-400 bg-lime-400 text-teal-500"
+      >
+        Submit
+      </button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
